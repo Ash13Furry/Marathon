@@ -1,0 +1,54 @@
+﻿<Page x:Class="WpfApp5.Sponsor"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:WpfApp5"
+      mc:Ignorable="d" 
+      d:DesignHeight="520" d:DesignWidth="800"
+      Title="Sponsor">
+
+    <Grid Background="White">
+        <DockPanel 
+                   Height="74" LastChildFill="False" 
+                   VerticalAlignment="Bottom"
+                   Background="Gray" Margin="0,0,0,460"/>
+        <Label FontSize="30"
+               Foreground="White"
+               Width="600" Height="450" Margin="100,0,0,70" VerticalAlignment="Bottom" HorizontalAlignment="Left">MARATHON SKILLS 2016</Label>
+        <Button Margin="10,0,0,475"
+                Foreground="Black"
+                Background="White"
+                FontSize="20" Height="38" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="85">Назад</Button>
+        <DockPanel HorizontalAlignment="Left" 
+                   Height="29" LastChildFill="False"
+                   Margin="0,491,0,0" VerticalAlignment="Top"
+                   Width="800" Background="Gray"/>
+        <Label FontSize="20"
+               Foreground="White"
+               Margin="170,488,0,-37" HorizontalAlignment="Left" Width="620" Height="69" VerticalAlignment="Top">18 дней 8 часов и 17 минут до старта марафона!</Label>
+        <Label Foreground="Gray"
+               Margin="250,52,0,0"
+               FontSize="30"
+               FontWeight="Medium" Height="370" VerticalAlignment="Top" HorizontalAlignment="Left" Width="550">Спонсор бегуна</Label>
+        <Label FontSize="20"
+               Foreground="Gray"
+               FontWeight="Medium" Height="430" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="790" Margin="0,0,-23,7">Пожалуйста выберите бегуна, которого вы хотели бы спонсировать и сумму,</Label>
+        <Label FontSize="20"
+               Foreground="Gray"
+               FontWeight="Medium" Height="430" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="790" Margin="0,0,-7,-14">которую вы хотели бы спонсировать. Спасибо за вашу поддержку бегунов и их</Label>
+        <Label FontSize="20"
+               Margin="228,124,0,-13"
+               Foreground="Gray"
+               FontWeight="Medium" Height="409" VerticalAlignment="Top" HorizontalAlignment="Left" Width="450">благотворительных учереждений</Label>
+        <Label Margin="67,163,161,-52"
+               FontSize="20"
+               FontWeight="Bold"
+               Foreground="LightGray">Информация о Спонсоре</Label>
+        <TextBox Margin="143,210,438,282"
+                 FontSize="20"
+                 Foreground="Gray"
+                 FontStyle="Italic">Ваше имя</TextBox>
+        <Label></Label>
+    </Grid>
+</Page>

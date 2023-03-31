@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 D:\VisualStudioSources\WpfApp5\App.xaml
-41034758834
+9-1191560986
 
-9-2038952628
+141713298032
 13152784993
-Login.xaml;MainWindow.xaml;PegRunner.xaml;Registration.xaml;
+AdminMenu.xaml;Coordinates.xaml;Info.xaml;Login.xaml;MainWindow.xaml;MenuRunner.xaml;PegRunner.xaml;Registration.xaml;Sponsor.xaml;
 
 True
 
